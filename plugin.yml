@@ -1,0 +1,20 @@
+name: AzazelHeal
+version: 0.0.1
+main: Azazel\AzazelHeal\Main
+api: 4.0.0
+author: Azazel_
+commands:
+  heal:
+    description: "§7Heile einen Spieler"
+    permission: heal.cmd
+  feed:
+    description: "§7Fütter einen Spieler"
+    permission: feed.cmd
+permissions:
+  heal.cmd:
+    description: Berechtigung für den /heal Befehl
+    default: op
+  feed.cmd:
+    description: Berechtigung für den /feed Befehl
+    default: op
+...
